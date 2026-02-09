@@ -1,0 +1,123 @@
+:root {
+    --bg: #0b0b0e;
+    --panel: #15151a;
+    --accent: #00f2ff;
+    --text: #c0c0c0;
+    --active-glow: rgba(0, 242, 255, 0.6);
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    gap: 30px;
+}
+
+/* THE STAGE */
+.stage {
+    flex: 3;
+    background: var(--panel);
+    border: 1px solid #333;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: inset 0 0 40px rgba(0,0,0,0.8);
+}
+
+.drop-spot {
+    width: 140px;
+    height: 140px;
+    border: 2px dashed #444;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+/* PULSATING GLOW */
+@keyframes pulse {
+    0% { box-shadow: 0 0 10px var(--active-glow); border-color: var(--accent); }
+    50% { box-shadow: 0 0 25px var(--active-glow); border-color: #fff; }
+    100% { box-shadow: 0 0 10px var(--active-glow); border-color: var(--accent); }
+}
+
+.drop-spot.active {
+    animation: pulse 1.5s infinite ease-in-out;
+    border-style: solid;
+}
+
+/* THE RACK */
+.inventory {
+    flex: 1;
+    background: var(--panel);
+    border: 1px solid #333;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    align-items: center;
+    overflow-y: auto;
+}
+
+/* THE PAWN */
+.pawn {
+    width: 70px;
+    height: 70px;
+    background: #222;
+    border: 2px solid var(--accent);
+    border-radius: 50%;
+    cursor: grab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: var(--accent);
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    user-select: none;
+}
+
+.pawn:active { cursor: grabbing; }
+
+/* BOTTOM CONSOLE */
+.console {
+    height: 150px;
+    background: #000;
+    border-top: 1px solid var(--accent);
+    padding: 20px 40px;
+    overflow-y: auto;
+}
+
+.console-header {
+    font-size: 10px;
+    color: #666;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.track-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    color: #fff;
+    font-size: 13px;
+    padding: 8px 0;
+    border-bottom: 1px solid #1a1a1a;
+}
+
+.track-info span b { color: var(--accent); margin-right: 5px; }

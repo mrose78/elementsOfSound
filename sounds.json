@@ -1,0 +1,54 @@
+{
+  "library": [
+    {
+      "id": "pawn-1",
+      "name": "Drums",
+      "sounds": {
+        "spot-1": "audio/01_drums_funky.wav",
+        "spot-2": "audio/02_drums_funky.wav",
+        "spot-3": "audio/03_drums_funky.wav"
+      },
+      "description": "Funky drums."
+    },
+    {
+      "id": "pawn-2",
+      "name": "Harmonica",
+      "sounds": {
+        "spot-1": "audio/01_harmonica.wav",
+        "spot-2": "audio/02_harmonica.wav",
+        "spot-3": "audio/03_harmonica.wav"
+      },
+      "description": "Soulful."
+    },
+    {
+      "id": "pawn-3",
+      "name": "Ukulele",
+      "sounds": {
+        "spot-1": "audio/01_ukulele.wav",
+        "spot-2": "audio/02_ukulele.wav",
+        "spot-3": "audio/03_ukulele.wav"
+      },
+      "description": "Island vibes."
+    },
+    {
+      "id": "pawn-4",
+      "name": "Ukulele 2",
+      "sounds": {
+        "spot-1": "audio/01_ukulele.wav",
+        "spot-2": "audio/02_ukulele.wav",
+        "spot-3": "audio/03_ukulele.wav"
+      },
+      "description": "Island vibes."
+    },    
+    {
+      "id": "pawn-5",
+      "name": "Harmonica 2",
+      "sounds": {
+        "spot-1": "audio/01_harmonica.wav",
+        "spot-2": "audio/02_harmonica.wav",
+        "spot-3": "audio/03_harmonica.wav"
+      },
+      "description": "Soulful."
+    }
+  ]
+}
