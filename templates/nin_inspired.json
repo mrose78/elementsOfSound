@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "title": "Mechanical Decay",
+    "artist": "Industrial Synth Engine",
+    "album": "The Fragile Circuit",
+    "genre": "Industrial Rock / Electronic",
+    "bpm": 105,
+    "time_signature": [4, 4],
+    "duration_bars": 64,
+    "arrangement": "Intro (0-8) | Verse 1 (8-24) | Chorus (24-40) | Bridge (40-48) | Final Chorus (48-56) | Outro (56-64)"
+  },
+  "tracks": [
+    {
+      "name": "white_noise_floor",
+      "sample": "fx/distorted_hum.wav",
+      "type": "loop",
+      "volume": 0.3,
+      "start_bar": 0,
+      "end_bar": 64,
+      "description": "Constant low-level industrial drone and static"
+    },
+    {
+      "name": "glitch_rhythm_intro",
+      "sample": "percussion/glitch_perch_loop.wav",
+      "type": "loop",
+      "volume": 0.45,
+      "start_bar": 0,
+      "end_bar": 8,
+      "description": "Erratic, high-frequency digital clicks and pops"
+    },
+    {
+      "name": "industrial_kick",
+      "sample": "drums/distorted_kick_heavy.wav",
+      "type": "one-shot",
+      "pattern": "x...x...x...x...",
+      "volume": 0.85,
+      "start_bar": 8,
+      "end_bar": 56,
+      "description": "Thumping, distorted kick with heavy compression"
+    },
+    {
+      "name": "snare_metal",
+      "sample": "drums/snare_metallic_hit.wav",
+      "type": "one-shot",
+      "pattern": "....x.......x...",
+      "volume": 0.75,
+      "start_bar": 8,
+      "end_bar": 56,
+      "description": "Sharp snare layered with a metallic clang"
+    },
+    {
+      "name": "synth_bass_fuzzy",
+      "sample": "bass/sawtooth_distorted_bass.wav",
+      "type": "loop",
+      "volume": 0.65,
+      "start_bar": 8,
+      "end_bar": 24,
+      "description": "Aggressive, gritty synth bass line for the verse"
+    },
+    {
+      "name": "piano_dissonant",
+      "sample": "instruments/piano_detuned_plucked.wav",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 16,
+      "end_bar": 24,
+      "description": "Cold, fragile detuned piano melody"
+    },
+    {
+      "name": "wall_of_noise_guitar",
+      "sample": "guitar/power_chord_fuzz.wav",
+      "type": "loop",
+      "volume": 0.8,
+      "start_bar": 24,
+      "end_bar": 40,
+      "description": "Heavy, saturated guitar layers for the chorus"
+    },
+    {
+      "name": "shouting_vocal_texture",
+      "sample": "vocals/distorted_whisper.wav",
+      "type": "one-shot",
+      "pattern": "x.......x.......",
+      "volume": 0.4,
+      "start_bar": 24,
+      "end_bar": 40,
+      "description": "Rhythmic distorted vocal whispers"
+    },
+    {
+      "name": "feedback_swell",
+      "sample": "fx/guitar_feedback_rise.wav",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.6,
+      "start_bar": 40,
+      "end_bar": 41,
+      "description": "Feedback transition into the bridge"
+    },
+    {
+      "name": "analog_pad_melancholy",
+      "sample": "instruments/dark_pad_low.wav",
+      "type": "loop",
+      "volume": 0.55,
+      "start_bar": 40,
+      "end_bar": 48,
+      "description": "Somber, wide analog synth pad for the bridge"
+    },
+    {
+      "name": "hats_crushed",
+      "sample": "drums/hihat_bitcrushed.wav",
+      "type": "one-shot",
+      "pattern": "xxxxxxxxxxxxxxxx",
+      "volume": 0.4,
+      "start_bar": 48,
+      "end_bar": 56,
+      "description": "Rapid 16th note bitcrushed hats for final energy"
+    },
+    {
+      "name": "slow_decay_piano",
+      "sample": "instruments/piano_reverb_wet.wav",
+      "type": "loop",
+      "volume": 0.45,
+      "start_bar": 56,
+      "end_bar": 64,
+      "description": "Echoing piano notes trailing off in the outro"
+    }
+  ]
+}
