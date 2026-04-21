@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "title": "Melancholy Highway",
+    "artist": "Music Generator",
+    "album": "Electronic Blues",
+    "genre": "Downtempo Electronic",
+    "bpm": 102,
+    "time_signature": [4, 4],
+    "duration_bars": 80,
+    "arrangement": "Intro (0-16) | Build (16-32) | Main (32-56) | Breakdown (56-64) | Final (64-80)"
+  },
+  "tracks": [
+    {
+      "name": "field_recording",
+      "sample": "ambience/field_recording.wav",
+      "type": "loop",
+      "volume": 0.3,
+      "start_bar": 0,
+      "end_bar": 16,
+      "description": "Atmospheric field recording intro"
+    },
+    {
+      "name": "vinyl_noise",
+      "sample": "fx/vinyl_noise.wav",
+      "type": "loop",
+      "volume": 0.25,
+      "start_bar": 0,
+      "end_bar": 80,
+      "description": "Vintage vinyl texture throughout"
+    },
+    {
+      "name": "piano_melancholy",
+      "sample": "instruments/piano/random",
+      "type": "loop",
+      "volume": 0.65,
+      "start_bar": 0,
+      "end_bar": 32,
+      "description": "Sad piano melody intro and build"
+    },
+    {
+      "name": "strings_swell",
+      "sample": "instruments/strings/random",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 8,
+      "end_bar": 56,
+      "description": "Swelling string pads"
+    },
+    {
+      "name": "vocal_sample_gospel",
+      "sample": "vocals/gospel/random",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 16,
+      "end_bar": 56,
+      "description": "Looped gospel vocal sample"
+    },
+    {
+      "name": "kick_electronic",
+      "sample": "drums/kicks/random",
+      "type": "one-shot",
+      "pattern": "x...x...x...x...",
+      "volume": 0.85,
+      "start_bar": 16,
+      "end_bar": 80,
+      "description": "Four-on-the-floor kick"
+    },
+    {
+      "name": "snare_acoustic",
+      "sample": "drums/snares/acoustic/random",
+      "type": "one-shot",
+      "pattern": "....x.......x...",
+      "volume": 0.7,
+      "start_bar": 24,
+      "end_bar": 56,
+      "description": "Live acoustic snare"
+    },
+    {
+      "name": "hihat_electronic",
+      "sample": "drums/hihats/closed/random",
+      "type": "one-shot",
+      "pattern": "x.x.x.x.x.x.x.x.",
+      "volume": 0.5,
+      "start_bar": 24,
+      "end_bar": 56,
+      "description": "Steady electronic hi-hats"
+    },
+    {
+      "name": "hihat_open_accent",
+      "sample": "drums/hihats/open/random",
+      "type": "one-shot",
+      "pattern": "......x.......x.",
+      "volume": 0.55,
+      "start_bar": 32,
+      "end_bar": 56,
+      "description": "Open hat accents"
+    },
+    {
+      "name": "bass_deep_sub",
+      "sample": "bass/sub_bass.wav",
+      "type": "loop",
+      "volume": 0.75,
+      "start_bar": 24,
+      "end_bar": 64,
+      "description": "Deep sub bass rumble"
+    },
+    {
+      "name": "synth_pad_warm",
+      "sample": "synths/pad_warm.wav",
+      "type": "loop",
+      "volume": 0.45,
+      "start_bar": 32,
+      "end_bar": 56,
+      "description": "Warm analog synth pad"
+    },
+    {
+      "name": "synth_arp",
+      "sample": "synths/arpeggio.wav",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 32,
+      "end_bar": 56,
+      "description": "Arpeggiated synth sequence"
+    },
+    {
+      "name": "guitar_slide",
+      "sample": "instruments/guitar/slide_guitar.wav",
+      "type": "loop",
+      "volume": 0.55,
+      "start_bar": 40,
+      "end_bar": 56,
+      "description": "Blues slide guitar"
+    },
+    {
+      "name": "vocal_oh",
+      "sample": "vocals/chops/random",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.5,
+      "start_bar": 32,
+      "end_bar": 56,
+      "description": "Vocal 'oh' on downbeat"
+    },
+    {
+      "name": "piano_breakdown",
+      "sample": "instruments/piano/random",
+      "type": "loop",
+      "volume": 0.7,
+      "start_bar": 56,
+      "end_bar": 64,
+      "description": "Piano returns for breakdown"
+    },
+    {
+      "name": "strings_breakdown",
+      "sample": "instruments/strings/random",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 56,
+      "end_bar": 64,
+      "description": "Isolated strings in breakdown"
+    },
+    {
+      "name": "kick_minimal",
+      "sample": "drums/kicks/random",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.7,
+      "start_bar": 56,
+      "end_bar": 64,
+      "description": "Sparse kick during breakdown"
+    },
+    {
+      "name": "vocal_sample_final",
+      "sample": "vocals/gospel/random",
+      "type": "loop",
+      "volume": 0.7,
+      "start_bar": 64,
+      "end_bar": 80,
+      "description": "Vocal returns for final section"
+    },
+    {
+      "name": "strings_final",
+      "sample": "instruments/strings/random",
+      "type": "loop",
+      "volume": 0.65,
+      "start_bar": 64,
+      "end_bar": 80,
+      "description": "Strings build to climax"
+    },
+    {
+      "name": "synth_lead_final",
+      "sample": "synths/lead_bright.wav",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 64,
+      "end_bar": 80,
+      "description": "Bright synth lead finale"
+    },
+    {
+      "name": "kick_four_floor_final",
+      "sample": "drums/kicks/random",
+      "type": "one-shot",
+      "pattern": "x...x...x...x...",
+      "volume": 0.9,
+      "start_bar": 64,
+      "end_bar": 80,
+      "description": "Driving kick for finale"
+    },
+    {
+      "name": "snare_final",
+      "sample": "drums/snares/acoustic/random",
+      "type": "one-shot",
+      "pattern": "....x.......x...",
+      "volume": 0.75,
+      "start_bar": 64,
+      "end_bar": 80,
+      "description": "Snare returns finale"
+    },
+    {
+      "name": "ride_cymbal",
+      "sample": "drums/ride_cymbal.wav",
+      "type": "one-shot",
+      "pattern": "x.x.x.x.x.x.x.x.",
+      "volume": 0.4,
+      "start_bar": 64,
+      "end_bar": 80,
+      "description": "Ride cymbal for driving feel"
+    },
+    {
+      "name": "orchestral_hit",
+      "sample": "instruments/orchestral_hit.wav",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.7,
+      "start_bar": 64,
+      "end_bar": 65,
+      "description": "Dramatic orchestral hit at finale start"
+    }
+  ]
+}

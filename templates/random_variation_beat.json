@@ -1,0 +1,109 @@
+{
+  "metadata": {
+    "title": "Random Variation Beat",
+    "artist": "Music Generator",
+    "album": "Generative Beats",
+    "genre": "Hip Hop",
+    "bpm": 95,
+    "time_signature": [4, 4],
+    "duration_bars": 32,
+    "arrangement": "Intro (0-8) | Verse (8-16) | Chorus (16-24) | Outro (24-32)"
+  },
+  "tracks": [
+    {
+      "name": "kick",
+      "sample": "drums/random",
+      "type": "one-shot",
+      "pattern": "x...x...x...x...",
+      "volume": 0.9,
+      "start_bar": 0,
+      "end_bar": 32,
+      "description": "Random kick from kicks folder - different each time!"
+    },
+    {
+      "name": "snare",
+      "sample": "drums/random",
+      "type": "one-shot",
+      "pattern": "....x.......x...",
+      "volume": 0.85,
+      "start_bar": 8,
+      "end_bar": 32,
+      "description": "Random snare selection"
+    },
+    {
+      "name": "hihat_closed",
+      "sample": "drums/random",
+      "type": "one-shot",
+      "pattern": "x.x.x.x.x.x.x.x.",
+      "volume": 0.6,
+      "start_bar": 8,
+      "end_bar": 32,
+      "description": "Random closed hihat"
+    },
+    {
+      "name": "hihat_open",
+      "sample": "drums/random",
+      "type": "one-shot",
+      "pattern": "......x.........",
+      "volume": 0.5,
+      "start_bar": 8,
+      "end_bar": 32,
+      "description": "Random open hihat"
+    },
+    {
+      "name": "bass",
+      "sample": "bass/random",
+      "type": "loop",
+      "volume": 0.75,
+      "start_bar": 8,
+      "end_bar": 32,
+      "description": "Random 808 bass loop"
+    },
+    {
+      "name": "melody_intro",
+      "sample": "instruments/random",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 0,
+      "end_bar": 8,
+      "description": "Random piano sample for intro"
+    },
+    {
+      "name": "melody_main",
+      "sample": "instruments/random",
+      "type": "loop",
+      "volume": 0.55,
+      "start_bar": 8,
+      "end_bar": 24,
+      "description": "Random string sample"
+    },
+    {
+      "name": "vocal_chop",
+      "sample": "vocals/random",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.5,
+      "start_bar": 16,
+      "end_bar": 24,
+      "description": "Random vocal chop during chorus"
+    },
+    {
+      "name": "percussion",
+      "sample": "percussion/random",
+      "type": "loop",
+      "volume": 0.4,
+      "start_bar": 16,
+      "end_bar": 24,
+      "description": "Random shaker or percussion loop"
+    },
+    {
+      "name": "vinyl_texture",
+      "sample": "fx/vinyl_crackle.wav",
+      "type": "loop",
+      "volume": 0.25,
+      "start_bar": 0,
+      "end_bar": 32,
+      "description": "Specific vinyl sample (not random)"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "global": {
+    "root_samples_dir": "samples",
+    "supported_formats": ["wav", "aiff", "mp3"],
+    "default_key": "D_minor",
+    "time_stretch": {
+      "enabled": true,
+      "algorithm": "ffmpeg_atempo",
+      "max_stretch_ratio": 1.25,
+      "min_stretch_ratio": 0.75
+    },
+    "normalize": {
+      "enabled": true,
+      "target_dbfs": -16
+    }
+  },
+
+  "sample_types": {
+    "pads": {
+      "folder": "pads",
+      "loopable": true,
+      "preferred_length_sec": [8, 32],
+      "fade_in_ms": [2000, 6000],
+      "fade_out_ms": [2000, 8000],
+      "gain_db": [-12, -6],
+      "allow_pitch_shift": true,
+      "pitch_shift_semitones": [-2, 2]
+    },
+
+    "drones": {
+      "folder": "drones",
+      "loopable": true,
+      "preferred_length_sec": [16, 64],
+      "fade_in_ms": [4000, 10000],
+      "fade_out_ms": [4000, 12000],
+      "gain_db": [-14, -8],
+      "allow_pitch_shift": true,
+      "pitch_shift_semitones": [-1, 1]
+    },
+
+    "piano": {
+      "folder": "piano",
+      "loopable": false,
+      "preferred_length_sec": [2, 12],
+      "fade_in_ms": [200, 800],
+      "fade_out_ms": [800, 2000],
+      "gain_db": [-10, -4],
+      "allow_pitch_shift": false,
+      "note_density": {
+        "min_hits_per_section": 2,
+        "max_hits_per_section": 6
+      }
+    },
+
+    "textures": {
+      "folder": "textures",
+      "loopable": true,
+      "preferred_length_sec": [10, 60],
+      "fade_in_ms": [3000, 8000],
+      "fade_out_ms": [3000, 10000],
+      "gain_db": [-18, -10],
+      "allow_pitch_shift": false,
+      "random_start_offset": true
+    },
+
+    "swells": {
+      "folder": "swells",
+      "loopable": false,
+      "preferred_length_sec": [4, 16],
+      "fade_in_ms": [1000, 4000],
+      "fade_out_ms": [3000, 8000],
+      "gain_db": [-12, -6],
+      "allow_reverse": true,
+      "placement": "section_transition"
+    },
+
+    "sub": {
+      "folder": "sub",
+      "loopable": true,
+      "preferred_length_sec": [8, 32],
+      "fade_in_ms": [2000, 6000],
+      "fade_out_ms": [2000, 6000],
+      "gain_db": [-16, -10],
+      "allow_pitch_shift": true,
+      "pitch_shift_semitones": [-1, 1],
+      "low_pass_filter_hz": [80, 120]
+    },
+
+    "vocal_textures": {
+      "folder": "vocal_textures",
+      "loopable": true,
+      "preferred_length_sec": [6, 24],
+      "fade_in_ms": [3000, 7000],
+      "fade_out_ms": [4000, 10000],
+      "gain_db": [-14, -8],
+      "allow_pitch_shift": true,
+      "pitch_shift_semitones": [-3, 3],
+      "allow_time_stretch": true,
+      "ethereal_processing": {
+        "reverb_send": 0.7,
+        "delay_send": 0.3
+      }
+    }
+  }
+}

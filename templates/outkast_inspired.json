@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "title": "Southern Funk Flow",
+    "artist": "Music Generator",
+    "album": "ATLiens Tribute",
+    "genre": "Southern Hip Hop",
+    "bpm": 96,
+    "time_signature": [4, 4],
+    "duration_bars": 64,
+    "arrangement": "Intro (0-8) | Verse 1 (8-24) | Hook (24-32) | Verse 2 (32-48) | Hook (48-56) | Outro (56-64)"
+  },
+  "tracks": [
+    {
+      "name": "kick_bounce",
+      "sample": "drums/kicks/random",
+      "type": "one-shot",
+      "pattern": "x.....x.x.......",
+      "volume": 0.95,
+      "start_bar": 8,
+      "end_bar": 64,
+      "description": "Syncopated kick with southern bounce"
+    },
+    {
+      "name": "snare_fat",
+      "sample": "drums/snares/random",
+      "type": "one-shot",
+      "pattern": "....x.......x...",
+      "volume": 0.85,
+      "start_bar": 8,
+      "end_bar": 64,
+      "description": "Fat snare on 2 and 4"
+    },
+    {
+      "name": "hihat_shuffle",
+      "sample": "drums/hihats/closed/random",
+      "type": "one-shot",
+      "pattern": "x.x.x.x.x.x.x.x.",
+      "volume": 0.55,
+      "start_bar": 8,
+      "end_bar": 64,
+      "description": "Shuffled hi-hats (add swing feel)"
+    },
+    {
+      "name": "hihat_triplet",
+      "sample": "drums/hihats/closed/random",
+      "type": "one-shot",
+      "pattern": "..x..x..x..x....",
+      "volume": 0.45,
+      "start_bar": 24,
+      "end_bar": 56,
+      "description": "Triplet hi-hat fills during hooks"
+    },
+    {
+      "name": "rim_shot",
+      "sample": "drums/rim_shot.wav",
+      "type": "one-shot",
+      "pattern": "..x...x.........",
+      "volume": 0.6,
+      "start_bar": 8,
+      "end_bar": 64,
+      "description": "Rim shots for extra groove"
+    },
+    {
+      "name": "808_bass_main",
+      "sample": "bass/808/random",
+      "type": "loop",
+      "volume": 0.8,
+      "start_bar": 8,
+      "end_bar": 64,
+      "description": "Deep rolling 808 bass"
+    },
+    {
+      "name": "synth_bass_sub",
+      "sample": "bass/synth_sub.wav",
+      "type": "loop",
+      "volume": 0.7,
+      "start_bar": 8,
+      "end_bar": 64,
+      "description": "Layered synth sub bass"
+    },
+    {
+      "name": "synth_lead_intro",
+      "sample": "synths/spacey_lead.wav",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 0,
+      "end_bar": 8,
+      "description": "Sci-fi synth intro"
+    },
+    {
+      "name": "synth_stab",
+      "sample": "synths/stab_bright.wav",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.65,
+      "start_bar": 24,
+      "end_bar": 56,
+      "description": "Synth stabs on downbeats during hooks"
+    },
+    {
+      "name": "funk_guitar",
+      "sample": "instruments/guitar/funk_guitar_loop.wav",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 8,
+      "end_bar": 24,
+      "description": "Funky guitar riff verse 1"
+    },
+    {
+      "name": "funk_guitar_2",
+      "sample": "instruments/guitar/funk_guitar_variation.wav",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 32,
+      "end_bar": 48,
+      "description": "Different funk guitar verse 2"
+    },
+    {
+      "name": "rhodes_chords",
+      "sample": "instruments/piano/rhodes_chords.wav",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 24,
+      "end_bar": 32,
+      "description": "Rhodes piano during first hook"
+    },
+    {
+      "name": "rhodes_chords_2",
+      "sample": "instruments/piano/rhodes_chords.wav",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 48,
+      "end_bar": 56,
+      "description": "Rhodes returns for second hook"
+    },
+    {
+      "name": "organ_pad",
+      "sample": "instruments/organ_pad.wav",
+      "type": "loop",
+      "volume": 0.45,
+      "start_bar": 24,
+      "end_bar": 56,
+      "description": "Warm organ pad during hooks"
+    },
+    {
+      "name": "vocal_chop_hey",
+      "sample": "vocals/chops/random",
+      "type": "one-shot",
+      "pattern": "..............x.",
+      "volume": 0.6,
+      "start_bar": 24,
+      "end_bar": 56,
+      "description": "Vocal chop accents in hooks"
+    },
+    {
+      "name": "tambourine",
+      "sample": "percussion/tambourine_loop.wav",
+      "type": "loop",
+      "volume": 0.4,
+      "start_bar": 24,
+      "end_bar": 56,
+      "description": "Tambourine shake for hooks"
+    },
+    {
+      "name": "cowbell",
+      "sample": "percussion/cowbell.wav",
+      "type": "one-shot",
+      "pattern": "..x...x.........",
+      "volume": 0.5,
+      "start_bar": 32,
+      "end_bar": 48,
+      "description": "Cowbell accents verse 2"
+    },
+    {
+      "name": "scratch_fx",
+      "sample": "fx/scratch.wav",
+      "type": "one-shot",
+      "pattern": "............x...",
+      "volume": 0.55,
+      "start_bar": 8,
+      "end_bar": 64,
+      "description": "Occasional scratch hits"
+    },
+    {
+      "name": "vinyl_crackle",
+      "sample": "fx/vinyl_crackle.wav",
+      "type": "loop",
+      "volume": 0.2,
+      "start_bar": 0,
+      "end_bar": 64,
+      "description": "Continuous vinyl warmth"
+    },
+    {
+      "name": "strings_outro",
+      "sample": "instruments/strings/random",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 56,
+      "end_bar": 64,
+      "description": "Lush strings for outro"
+    }
+  ]
+}

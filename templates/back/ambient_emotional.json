@@ -1,0 +1,72 @@
+{
+  "style": "ambient_emotional",
+  "bpm": 64,
+  "time_signature": "4/4",
+  "tracks": [
+    { "id": "pad", "type": "pads" },
+    { "id": "drone", "type": "drones" },
+    { "id": "piano", "type": "piano" },
+    { "id": "texture", "type": "textures" },
+    { "id": "swell", "type": "swells" },
+    { "id": "sub", "type": "sub" },
+    { "id": "vocal", "type": "vocal_textures" }
+  ],
+  "sections": [
+    {
+      "name": "intro",
+      "bars": 16
+    },
+    {
+      "name": "theme_a",
+      "bars": 32
+    },
+    {
+      "name": "build",
+      "bars": 32
+    },
+    {
+      "name": "peak",
+      "bars": 32
+    },
+    {
+      "name": "release",
+      "bars": 24
+    },
+    {
+      "name": "outro",
+      "bars": 16
+    }
+  ],
+  "section_rules": {
+    "intro": {
+      "enable_tracks": ["drone", "texture"],
+      "probability": 1.0,
+      "volume_adjust": -10
+    },
+    "theme_a": {
+      "enable_tracks": ["drone", "pad", "piano", "texture"],
+      "probability": 0.85,
+      "volume_adjust": -8
+    },
+    "build": {
+      "enable_tracks": ["drone", "pad", "piano", "swell", "sub"],
+      "probability": 0.9,
+      "volume_adjust": -6
+    },
+    "peak": {
+      "enable_tracks": ["drone", "pad", "piano", "swell", "sub", "vocal"],
+      "probability": 1.0,
+      "volume_adjust": -4
+    },
+    "release": {
+      "enable_tracks": ["pad", "drone", "vocal", "texture"],
+      "probability": 0.8,
+      "volume_adjust": -9
+    },
+    "outro": {
+      "enable_tracks": ["drone", "texture"],
+      "probability": 1.0,
+      "volume_adjust": -12
+    }
+  }
+}

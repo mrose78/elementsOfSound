@@ -1,0 +1,184 @@
+{
+  "metadata": {
+    "title": "Downtempo Layers",
+    "artist": "Music Generator",
+    "album": "Instrumental Studies",
+    "genre": "Downtempo Hip Hop",
+    "bpm": 86,
+    "time_signature": [4, 4],
+    "duration_bars": 48,
+    "arrangement": "Intro (0-8) | Build (8-16) | Main (16-32) | Breakdown (32-40) | Outro (40-48)"
+  },
+  "tracks": [
+    {
+      "name": "vinyl_crackle",
+      "sample": "fx/vinyl_crackle.wav",
+      "type": "loop",
+      "volume": 0.25,
+      "start_bar": 0,
+      "end_bar": 48,
+      "description": "Continuous vinyl texture throughout"
+    },
+    {
+      "name": "piano_sample_intro",
+      "sample": "instruments/jazz_piano_mellow.wav",
+      "type": "loop",
+      "volume": 0.55,
+      "start_bar": 0,
+      "end_bar": 8,
+      "description": "Melancholic piano intro sample"
+    },
+    {
+      "name": "organ_chord",
+      "sample": "instruments/organ_pad.wav",
+      "type": "loop",
+      "volume": 0.45,
+      "start_bar": 8,
+      "end_bar": 40,
+      "description": "Warm organ sustain"
+    },
+    {
+      "name": "kick_soft",
+      "sample": "drums/kick_soft.wav",
+      "type": "one-shot",
+      "pattern": "x.......x.......",
+      "volume": 0.75,
+      "start_bar": 8,
+      "end_bar": 48,
+      "description": "Laid-back kick pattern"
+    },
+    {
+      "name": "snare_dusty",
+      "sample": "drums/snare_dusty.wav",
+      "type": "one-shot",
+      "pattern": "....x.......x...",
+      "volume": 0.7,
+      "start_bar": 8,
+      "end_bar": 48,
+      "description": "Crispy snare on 2 and 4"
+    },
+    {
+      "name": "hihat_loose",
+      "sample": "drums/hihat_loose.wav",
+      "type": "one-shot",
+      "pattern": "..x...x...x...x.",
+      "volume": 0.5,
+      "start_bar": 8,
+      "end_bar": 32,
+      "description": "Offbeat hi-hats with swing feel"
+    },
+    {
+      "name": "bass_sample",
+      "sample": "bass/upright_bass_warm.wav",
+      "type": "loop",
+      "volume": 0.65,
+      "start_bar": 16,
+      "end_bar": 40,
+      "description": "Deep sampled bass line"
+    },
+    {
+      "name": "strings_sample",
+      "sample": "instruments/string_section.wav",
+      "type": "loop",
+      "volume": 0.4,
+      "start_bar": 16,
+      "end_bar": 32,
+      "description": "Layered string sample"
+    },
+    {
+      "name": "vocal_chop_1",
+      "sample": "vocals/vocal_chop_ah.wav",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.5,
+      "start_bar": 16,
+      "end_bar": 32,
+      "description": "Vocal chop accent"
+    },
+    {
+      "name": "vocal_chop_2",
+      "sample": "vocals/vocal_chop_oh.wav",
+      "type": "one-shot",
+      "pattern": "........x.......",
+      "volume": 0.5,
+      "start_bar": 16,
+      "end_bar": 32,
+      "description": "Second vocal chop"
+    },
+    {
+      "name": "percussion_shaker",
+      "sample": "percussion/shaker_loop.wav",
+      "type": "loop",
+      "volume": 0.35,
+      "start_bar": 24,
+      "end_bar": 40,
+      "description": "Subtle shaker texture"
+    },
+    {
+      "name": "cymbal_crash",
+      "sample": "drums/cymbal_crash.wav",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.6,
+      "start_bar": 16,
+      "end_bar": 17,
+      "description": "Crash at main section entry"
+    },
+    {
+      "name": "piano_sample_main",
+      "sample": "instruments/jazz_piano_chord.wav",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 16,
+      "end_bar": 32,
+      "description": "Different piano sample for main section"
+    },
+    {
+      "name": "horn_stab",
+      "sample": "instruments/horn_stab.wav",
+      "type": "one-shot",
+      "pattern": "............x...",
+      "volume": 0.55,
+      "start_bar": 20,
+      "end_bar": 32,
+      "description": "Occasional horn accent"
+    },
+    {
+      "name": "rhodes_breakdown",
+      "sample": "instruments/rhodes_clean.wav",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 32,
+      "end_bar": 40,
+      "description": "Rhodes piano for breakdown"
+    },
+    {
+      "name": "flute_sample",
+      "sample": "instruments/flute_melody.wav",
+      "type": "loop",
+      "volume": 0.45,
+      "start_bar": 32,
+      "end_bar": 40,
+      "description": "Flute melody during breakdown"
+    },
+    {
+      "name": "kick_outro",
+      "sample": "drums/kick_soft.wav",
+      "type": "one-shot",
+      "pattern": "x...............",
+      "volume": 0.7,
+      "start_bar": 40,
+      "end_bar": 48,
+      "description": "Sparse kick for outro"
+    },
+    {
+      "name": "piano_outro",
+      "sample": "instruments/jazz_piano_mellow.wav",
+      "type": "loop",
+      "volume": 0.5,
+      "start_bar": 40,
+      "end_bar": 48,
+      "description": "Return to intro piano"
+    }
+  ]
+}

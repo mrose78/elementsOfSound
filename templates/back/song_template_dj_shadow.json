@@ -1,0 +1,68 @@
+{
+  "style": "instrumental_hip_hop",
+  "bpm": 92,
+  "time_signature": "4/4",
+
+  "tracks": [
+    { "id": "drums", "type": "drums" },
+    { "id": "bass", "type": "bass" },
+    { "id": "chops", "type": "melodic_chops" },
+    { "id": "pads", "type": "pads" },
+    { "id": "texture", "type": "textures" },
+    { "id": "fx", "type": "fx_hits" }
+  ],
+
+  "sections": [
+    { "name": "intro", "bars": 8 },
+    { "name": "loop_a", "bars": 16 },
+    { "name": "loop_b", "bars": 16 },
+    { "name": "development", "bars": 24 },
+    { "name": "breakdown", "bars": 8 },
+    { "name": "final_loop", "bars": 24 },
+    { "name": "outro", "bars": 8 }
+  ],
+
+  "section_rules": {
+    "intro": {
+      "enable_tracks": ["texture", "pads"],
+      "probability": 1.0,
+      "volume_adjust": -8
+    },
+
+    "loop_a": {
+      "enable_tracks": ["drums", "bass", "chops", "texture"],
+      "probability": 0.85,
+      "volume_adjust": -6
+    },
+
+    "loop_b": {
+      "enable_tracks": ["drums", "bass", "chops", "pads", "texture"],
+      "probability": 0.9,
+      "volume_adjust": -5
+    },
+
+    "development": {
+      "enable_tracks": ["drums", "bass", "chops", "pads", "texture", "fx"],
+      "probability": 0.9,
+      "volume_adjust": -4
+    },
+
+    "breakdown": {
+      "enable_tracks": ["texture", "pads", "fx"],
+      "probability": 0.7,
+      "volume_adjust": -10
+    },
+
+    "final_loop": {
+      "enable_tracks": ["drums", "bass", "chops", "pads", "texture", "fx"],
+      "probability": 1.0,
+      "volume_adjust": -3
+    },
+
+    "outro": {
+      "enable_tracks": ["texture", "pads"],
+      "probability": 1.0,
+      "volume_adjust": -12
+    }
+  }
+}

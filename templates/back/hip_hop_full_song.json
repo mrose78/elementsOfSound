@@ -1,0 +1,54 @@
+{
+  "name": "Hip Hop Full Song",
+  "bpm": 90,
+
+  "sections": [
+    { "name": "intro", "bars": 4 },
+    { "name": "verse", "bars": 16 },
+    { "name": "hook", "bars": 8 },
+    { "name": "verse", "bars": 16 },
+    { "name": "hook", "bars": 8 },
+    { "name": "bridge", "bars": 8 },
+    { "name": "hook", "bars": 8 },
+    { "name": "outro", "bars": 4 }
+  ],
+
+  "tracks": [
+    { "id": 1, "type": "drums" },
+    { "id": 2, "type": "drums" },
+    { "id": 3, "type": "drums" },
+    { "id": 4, "type": "bass" },
+    { "id": 5, "type": "melody" },
+    { "id": 6, "type": "melody" },
+    { "id": 7, "type": "fx" },
+    { "id": 8, "type": "vocals" }
+  ],
+
+  "section_rules": {
+    "intro": {
+      "enable_tracks": [3, 5, 7],
+      "volume_adjust": -6,
+      "probability": 0.7
+    },
+    "verse": {
+      "enable_tracks": [1, 2, 3, 4, 5, 8],
+      "volume_adjust": -2,
+      "probability": 0.9
+    },
+    "hook": {
+      "enable_tracks": [1, 2, 3, 4, 5, 6, 7, 8],
+      "volume_adjust": 2,
+      "probability": 1.0
+    },
+    "bridge": {
+      "enable_tracks": [4, 6, 7],
+      "volume_adjust": -4,
+      "probability": 0.6
+    },
+    "outro": {
+      "enable_tracks": [5, 7],
+      "volume_adjust": -8,
+      "probability": 0.5
+    }
+  }
+}
