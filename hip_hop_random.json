@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "title": "Randomized Beats",
+    "artist": "Dynamic Sampler",
+    "album": "Algorithmic Soul",
+    "genre": "Hip Hop",
+    "bpm": 92,
+    "time_signature": [4, 4],
+    "duration_bars": 32,
+    "arrangement": "Intro (0-4) | Verse (4-20) | Chorus (20-28) | Outro (28-32)"
+  },
+  "tracks": [
+    {
+      "name": "drum_break",
+      "sample": "drums/random",
+      "type": "loop",
+      "volume": 0.8,
+      "start_bar": 4,
+      "end_bar": 32,
+      "description": "Main rhythmic breakbeat foundation"
+    },
+    {
+      "name": "kick_punchy",
+      "sample": "drums/random",
+      "type": "one-shot",
+      "pattern": "x...x..x.x..x...",
+      "volume": 0.9,
+      "start_bar": 0,
+      "end_bar": 28,
+      "description": "Heavy kick to reinforce the loop"
+    },
+    {
+      "name": "snare_crack",
+      "sample": "drums/random",
+      "type": "one-shot",
+      "pattern": "....x.......x...",
+      "volume": 0.75,
+      "start_bar": 0,
+      "end_bar": 32,
+      "description": "Standard backbeat snare"
+    },
+    {
+      "name": "bass_line",
+      "sample": "bass/random",
+      "type": "loop",
+      "volume": 0.7,
+      "start_bar": 4,
+      "end_bar": 28,
+      "description": "Low-end melodic groove"
+    },
+    {
+      "name": "melodic_sample",
+      "sample": "instruments/random",
+      "type": "loop",
+      "volume": 0.6,
+      "start_bar": 0,
+      "end_bar": 20,
+      "description": "Main melodic loop (e.g., piano, horn, or guitar)"
+    },
+    {
+      "name": "vocal_shout",
+      "sample": "vocals/random",
+      "type": "one-shot",
+      "pattern": ".......x........",
+      "volume": 0.5,
+      "start_bar": 4,
+      "end_bar": 20,
+      "description": "Intermittent vocal accent"
+    },
+    {
+      "name": "chorus_lead",
+      "sample": "instruments/random",
+      "type": "loop",
+      "volume": 0.65,
+      "start_bar": 20,
+      "end_bar": 28,
+      "description": "High-energy lead instrument for the hook"
+    },
+    {
+      "name": "scratches",
+      "sample": "fx/random",
+      "type": "one-shot",
+      "pattern": "............x.x.",
+      "volume": 0.4,
+      "start_bar": 12,
+      "end_bar": 28,
+      "description": "Turntablist style sound effects"
+    },
+    {
+      "name": "atmosphere_texture",
+      "sample": "fx/random",
+      "type": "loop",
+      "volume": 0.3,
+      "start_bar": 0,
+      "end_bar": 32,
+      "description": "Ambient background layer (e.g., street noise or vinyl hiss)"
+    }
+  ]
+}
